@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.product-categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.category {
+    text-align: center;
+}
+
+.category img {
+    max-width: 100px; /* Adjust size of product images */
+    margin-bottom: 15px;
+}
+
+.category a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.promotions {
+    padding: 50px;
+    text-align: center;
+}
+
+.promotions h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.promo-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo-item {
+    text-align: center;
+    width: 30%;
+    border-radius: 15px;
+}
+
+#black{
+    background-color: #000;
+    color: white;
+}
+
+#darkblue{
+    background: linear-gradient(90deg, #3f4567, #303553);
+    color: white;
+}
+
+#gray{
+    background-color: lightgray;
+    color: black;
+}
+
+.promo-item img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.apple-store-benefits {
+    padding: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 55px;
+}
+
+.benefit {
+    width: 23%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+}
